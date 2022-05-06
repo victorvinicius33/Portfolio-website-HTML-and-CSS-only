@@ -2,7 +2,7 @@
     display: flex;
     align-items: flex-end;
 
-    background-image: url('/assets/home/image-homepage-hero.jpg');
+    background-image: url('./assets/home/image-homepage-hero.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
