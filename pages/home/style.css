@@ -1,0 +1,133 @@
+.hero-section {
+    display: flex;
+    align-items: flex-end;
+
+    background-image: url('../../assets/home/image-homepage-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.hero-box {
+    display: flex;
+    flex-direction: column;
+
+    background: #FAFAFA;
+}
+
+.hero-box p{
+    padding: 53px 27px;
+
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+
+    color: #33323D;
+}
+
+.btn-dark {
+    all: unset;
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+    max-width: 200px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    background-color: rgb(32, 58, 76);
+    color: #FFF;
+}
+
+.btn-dark span{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.btn-dark img {
+    padding: 18px 16px;
+    background-color: rgba(18, 37, 51, 0.5);
+}
+
+.btn-dark:hover {
+    background-color: rgb(95, 180, 162);
+}
+
+.sobre-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 149px;
+}
+
+.sobre-section img {
+    width: 540px;
+}
+
+.sobre-mim-section {
+    display: flex;
+    flex-direction: column;
+
+    width: 430px;
+}
+
+.sobre-mim-section h1 {
+    margin-top: 51px;
+
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.sobre-mim-section p {
+    margin-top: 28px;
+
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+
+    color: #33323D;
+}
+
+.btn-sobre-mim {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-hover-dark {
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    width: 204px;
+    margin-top: 24px;
+    padding: 17px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid #33323D;
+    
+    background-color: #FFF;
+}
+
+.btn-sobre-mim a{
+    text-decoration: none;
+    color: #33323D;
+}
+
+.btn-hover-dark:hover {
+    color: #FFF;
+    background-color: rgb(51, 50, 61);
+}

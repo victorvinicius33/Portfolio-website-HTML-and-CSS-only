@@ -1,0 +1,186 @@
+.hero-section img{
+    height: 500px;
+    width: 1019px;
+    margin-top: 40px;
+    margin-bottom: 115px;
+}
+
+.card-1 {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 64px;
+}
+
+.description {
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.description h1 {
+    padding-top: 48px;
+    margin-bottom: 29px;
+
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+
+.description p {
+    margin-bottom: 53px;
+
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+.description label {
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #5FB4A2;
+}
+
+.btn-hover-dark {
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    width: 204px;
+    margin-top: 24px;
+    padding: 17px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid #33323D;
+    
+    background-color: #FFF;
+}
+
+.btn-hover-dark:hover {
+    color: #FFF;
+    background-color: rgb(51, 50, 61);
+}
+
+.description a {
+    margin-bottom: 48px;
+
+    text-decoration: none;
+    color: #33323D;
+}
+
+.border {
+    height: 1px;
+    border: 1px solid #33323D;
+    opacity: 0.15;
+}
+
+.project {
+    width: 635px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.project h1 {
+    margin-bottom: 28px;
+
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+}
+
+.project p {
+    margin-bottom: 40px;
+
+    font-size: 15px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+.project h2 {
+    margin-bottom: 28px;
+    
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+}
+
+.nav-portfolio {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 32px 0px;
+}
+
+.nav-portfolio h1 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.285714px;
+    font-weight: normal;
+}
+
+.nav-portfolio p {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.5;
+}
+
+.nav-portfolio a {
+    text-decoration: none;
+}
+
+.nav-portfolio .selection {
+    margin-left: 32px;
+
+    text-decoration: none;
+}
+
+.back-next {
+    display: flex;
+}
+
+.back-next button {
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+
+.back-next a {
+    display: flex;
+    justify-content: center;
+}
+
+.back-next img {
+    width: 8px;
+    height: 16px;
+} 
+
+.flex-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.margin-left-32 {
+    margin-left: 32px;
+}
+
+.margin-right-32 {
+    margin-right: 32px;
+}
+
+.margin-bottom-16 {
+    margin-bottom: 16px;
+}
+
+.margin-bottom-32 {
+    margin-bottom: 32px;
+}

@@ -1,0 +1,76 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.card img {
+    height: 500px;
+}
+
+.card-text {
+    width: 350px;
+}
+
+.card-text h1{
+    margin: 103px 0px 28px 0px;
+
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.card-text p {
+    margin-bottom: 54px;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    opacity: 0.8;
+}
+
+.card-text a {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    color: #33323D;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.btn-hover-dark {
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    width: 204px;
+    margin-top: 24px;
+    padding: 17px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid #33323D;
+    
+    background-color: #FFF;
+}
+
+.btn-hover-dark:hover {
+    color: #FFF;
+    background-color: rgb(51, 50, 61);
+}

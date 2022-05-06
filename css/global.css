@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0px 165px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 65px 0px 55px 0px;
+}
+
+.setas{
+    width: 60px;
+    height: 32px;
+}
+
+.nav-header ul {
+    display: flex;
+}
+
+.nav-header li {
+    list-style: none;
+}
+
+.nav-header a {
+    margin-left: 40px;
+
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    color: #33323D;
+}
+
+.nav-header .a-green {
+    color: #5FB4A2;
+} 
+
+.contato-section {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 150px;
+}
+
+.contato-section h1 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.contato-section button {
+    all: unset;
+    cursor: pointer;
+
+    height: 48px;
+    padding: 0px 50px;
+    margin-top: 18px;
+
+    border: 1px solid #33323D;
+
+    color: #33323D;
+}
+
+.contato-section a {
+    text-decoration: none;
+    color: #33323D;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    padding: 28px 0px;
+
+    background-color: #33323D;
+}
+
+.footer-links {
+    margin-left: 165px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-links img {
+    margin-right: 48px;
+}
+
+.nav-footer ul {
+    display: flex;
+}
+
+.nav-footer li {
+    list-style: none;
+}
+
+.nav-footer a {
+    margin-right: 42px;
+
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+
+    color: #FFF;
+}
+
+.footer .icons-light {
+    margin-right: 165px;
+}
+
+.icons-light img {
+    margin-left: 16px;
+}
+
+.public-sans {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: #33323D;
+}
+
+.ibarra {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+    color: #33323D;
+}
