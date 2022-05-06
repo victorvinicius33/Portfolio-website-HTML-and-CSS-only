@@ -1,6 +1,10 @@
 # Portfolio website with HTML and CSS only
 Site made for the first challenge of Cubos Academy's FullStack software development course. In the construction process, only HTML and CSS were used.
 
+## Link to see the project working
+
+https://victorvinicius33.github.io/Portfolio-website-HTML-and-CSS-only/
+
 ## Project Images
 <br>
 <img src="./.github/assetsReadme/Home.PNG">
